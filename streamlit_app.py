@@ -5,7 +5,6 @@ DATA_FILE_ID = "1AsdUWNsA981I0GXty9r345IBC4Ly_D1X"
 VALIDATION_FILE_ID = "1Wj8Z4FrhVvYZtfhLvaaiyoTYdtWFFRn9"
 
 # ✅ Function to download CSV files from Google Drive
-@st.cache_data
 def download_csv_from_gdrive(file_id, output_path):
     url = f"https://drive.google.com/uc?id={file_id}"
     gdown.download(url, output_path, fuzzy=True, quiet=False)
