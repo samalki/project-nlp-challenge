@@ -1,12 +1,4 @@
-import streamlit as st
-import pandas as pd
-import os
-import re
-import string
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.ensemble import RandomForestClassifier
+
 # ✅ Ensure required NLTK resources are downloaded
 nltk.download("punkt")
 nltk.download("stopwords")
