@@ -1,8 +1,4 @@
 
-# ✅ Ensure required NLTK resources are downloaded
-nltk.download("punkt")
-nltk.download("stopwords")
-nltk.download("wordnet")
 
 # ✅ Google Drive File IDs
 DATA_FILE_ID = "1AsdUWNsA981I0GXty9r345IBC4Ly_D1X"
