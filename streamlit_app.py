@@ -3,6 +3,7 @@ import pandas as pd
 import gdown
 import os
 import re
+
 import string
 import nltk
 from nltk.corpus import stopwords
@@ -10,8 +11,6 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
-    import gdown
-
 # ✅ Ensure required NLTK resources are downloaded
 nltk.download("punkt")
 nltk.download("stopwords")
